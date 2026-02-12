@@ -1,7 +1,7 @@
 interface Livro {
-  titulo: string,
-  autor: string,
-  anoPublicacao: number
+  titulo: string;
+  autor: string;
+  anoPublicacao: number;
 }
 
 function resumirLivro(livro:Livro) {
